@@ -19,8 +19,8 @@ const Footer = (props) => {
                         <FaWhatsapp size={24} />
                     </a>
                 </div>
-                <p>Designed, Developed & Maintained by <a href="https://www.linkedin.com/in/bhavinthakur/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style={{ color: 'cyan', fontWeight: 'bold' }}>Bhavin Thakur</a>.</p>
                 <p>&copy; 2024 Chahat Creates. All rights reserved.</p>
+                <p style={{ fontSize: '12px', color: 'gray' }}>Designed, Developed & Maintained by <br /><a href="https://www.linkedin.com/in/bhavinthakur/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" style={{ color: 'cyan', fontWeight: 'bold' }}>Bhavin Thakur</a>.</p>
             </div>
         </footer>
     );
