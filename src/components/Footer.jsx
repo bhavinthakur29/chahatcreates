@@ -5,7 +5,9 @@ const Footer = (props) => {
     return (
         <footer className="footer">
             <div className="footer-content">
-                <div className="footer-logo">{props.siteName}</div>
+                <div className="footer-logo" onClick={() => window.location.reload()} style={{ cursor: 'pointer' }}>
+                    {props.siteName}
+                </div>
                 <div className="social-links">
                     <a href="https://www.linkedin.com/in/chahat-sharma-2ab711241/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                         <FaLinkedin size={24} />

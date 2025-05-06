@@ -89,7 +89,7 @@ function App() {
       {/* Navigation */}
       <nav className={`navbar ${isScrolled ? 'scrolled' : ''}`}>
         <div className="nav-container">
-          <div className="logo" onClick={scrollToTop}>
+          <div className="logo">
             {siteName}
           </div>
           <div className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
