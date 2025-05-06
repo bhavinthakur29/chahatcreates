@@ -8,7 +8,7 @@ const About = () => {
                 <div className="about-grid">
                     <div className="about-text">
                         <div className="profile-image">
-                            <img src="/images/chahat-1.png" alt="Profile" />
+                            <img src="/images/chahat.png" alt="Profile" />
                         </div>
                         <p>
                             I'm a creative professional with a passion for video editing and visual storytelling. With 5 years of experience in post-production and motion graphics, I bring a unique perspective to every project.
